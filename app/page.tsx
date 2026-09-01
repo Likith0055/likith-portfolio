@@ -107,15 +107,6 @@ export default function Home() {
               Resume
             </a>
 
-            <a
-              className="secondaryBtn"
-              href="https://github.com/Likith0055"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <Github size={17} />
-              GitHub
-            </a>
 
             <a
               className="secondaryBtn"
