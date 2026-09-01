@@ -100,7 +100,7 @@ export default function Home() {
 
             <a
   className="secondaryBtn"
-  href="/resume.pdf"
+  href="/Likith_Chilakalapadi_Prabhu_Resume.pdf"
   download="Likith_Chilakalapadi_Prabhu_Resume.pdf"
 >
               <Download size={17} />
