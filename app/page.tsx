@@ -183,6 +183,94 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <section className="section shell" id="experience">
+  <div className="sectionHeading">
+    <div>
+      <p className="kicker">EXPERIENCE</p>
+
+      <h2>
+        Production AI from models to infrastructure.
+      </h2>
+    </div>
+  </div>
+
+  <div className="timeline">
+    <div className="timelineItem">
+      <div className="timelineDot" />
+
+      <div className="timelineMeta">
+        <strong>NVIDIA</strong>
+        <span>Mar 2025 — Present</span>
+      </div>
+
+      <div>
+        <h3>AI/ML Engineer</h3>
+
+        <p>
+          Building production AI systems across multi-agent orchestration,
+          enterprise RAG, distributed GPU inference, LLMOps, and
+          cloud-native infrastructure.
+        </p>
+
+        <ul className="experiencePoints">
+          <li>
+            Supported enterprise AI experiences serving{" "}
+            <strong>35K+ employees</strong>, improving response accuracy by{" "}
+            <strong>19%</strong>.
+          </li>
+
+          <li>
+            Improved RAG retrieval quality by <strong>21%</strong> through
+            retrieval, reranking, and evaluation improvements.
+          </li>
+
+          <li>
+            Reduced inference latency by <strong>34%</strong> and
+            infrastructure cost by <strong>28%</strong> through GPU-serving
+            and deployment optimization.
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div className="timelineItem">
+      <div className="timelineDot" />
+
+      <div className="timelineMeta">
+        <strong>Accenture</strong>
+        <span>Oct 2020 — Jul 2024</span>
+      </div>
+
+      <div>
+        <h3>Machine Learning Engineer</h3>
+
+        <p>
+          Built production AI/ML platforms spanning RAG, scalable Python
+          services, MLOps, event-driven pipelines, cloud infrastructure,
+          and enterprise integrations.
+        </p>
+
+        <ul className="experiencePoints">
+          <li>
+            Developed AI/ML systems supporting products with up to{" "}
+            <strong>420K users</strong>.
+          </li>
+
+          <li>
+            Improved RAG retrieval performance by <strong>21%</strong> across
+            enterprise knowledge workflows.
+          </li>
+
+          <li>
+            Reduced inference latency by <strong>33%</strong> and
+            infrastructure cost by <strong>29%</strong> through serving and
+            cloud optimization.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
       <section className="section shell" id="work">
         <div className="sectionHeading">
@@ -291,57 +379,7 @@ export default function Home() {
         </article>
       </section>
 
-      <section className="section shell" id="experience">
-        <div className="sectionHeading">
-          <div>
-            <p className="kicker">EXPERIENCE</p>
 
-            <h2>
-              Production AI from models to infrastructure.
-            </h2>
-          </div>
-        </div>
-
-        <div className="timeline">
-          <div className="timelineItem">
-            <div className="timelineDot" />
-
-            <div className="timelineMeta">
-              <strong>NVIDIA</strong>
-              <span>Mar 2025 — Present</span>
-            </div>
-
-            <div>
-              <h3>AI/ML Engineer</h3>
-
-              <p>
-                Production AI systems spanning multi-agent orchestration,
-                enterprise RAG, distributed GPU inference, cloud-native
-                deployment, LLMOps, and observability.
-              </p>
-            </div>
-          </div>
-
-          <div className="timelineItem">
-            <div className="timelineDot" />
-
-            <div className="timelineMeta">
-              <strong>Accenture</strong>
-              <span>Oct 2020 — Jul 2024</span>
-            </div>
-
-            <div>
-              <h3>Machine Learning Engineer</h3>
-
-              <p>
-                Built AI/ML platforms involving RAG, scalable Python services,
-                MLOps, event-driven data pipelines, cloud infrastructure, and
-                enterprise integrations.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <section className="section shell" id="skills">
         <div className="sectionHeading">
