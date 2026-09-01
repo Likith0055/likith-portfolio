@@ -283,9 +283,10 @@ export default function Home() {
           </div>
 
           <p>
-            The flagship project focuses on quality regression detection,
-            experiment tracking, concurrency, latency, and repeatable LLM
-            evaluation.
+          A production-oriented evaluation platform for measuring LLM quality, catching
+regressions before release, and comparing model, prompt, and retrieval
+configurations at scale.
+
           </p>
         </div>
 
@@ -387,7 +388,7 @@ export default function Home() {
             <p className="kicker">TECHNICAL STACK</p>
 
             <h2>
-              Focused on the production AI lifecycle.
+              Technical depth across the production AI lifecycle.
             </h2>
           </div>
         </div>
