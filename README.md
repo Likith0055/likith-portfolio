@@ -1,24 +1,38 @@
 # Likith AI/ML Portfolio
 
-A focused AI/ML engineering portfolio built with Next.js + TypeScript.
+Personal AI/ML engineering portfolio built with Next.js and TypeScript.
 
-## Run locally
+## Overview
+
+This portfolio highlights my work in:
+
+- Generative AI
+- Retrieval-Augmented Generation (RAG)
+- Agentic AI systems
+- LLM evaluation and regression testing
+- Scalable inference infrastructure
+- Production AI/ML engineering
+
+## Featured Project
+
+### EvalForge
+
+LLM Evaluation & Regression Testing Platform designed to benchmark model, prompt, and retrieval configurations across large evaluation suites.
+
+Key results:
+
+- 93% of intentionally introduced quality regressions detected
+- 72% reduction in manual evaluation effort
+- <250 ms P95 API latency
+- 50+ concurrent evaluation jobs
+- 20+ model, prompt, and retrieval configurations evaluated
+
+## Tech Stack
+
+Next.js, TypeScript, Python, PyTorch, FastAPI, RAG, LangGraph, MLflow, PostgreSQL, Redis, AWS, Docker, Kubernetes
+
+## Run Locally
 
 ```bash
 npm install
 npm run dev
-```
-
-Open http://localhost:3000
-
-## Before deployment
-
-1. Replace placeholder "NEXT BUILD" project cards once the repositories are ready.
-2. Add a downloadable resume under `public/resume.pdf`.
-3. Add/verify GitHub repository links.
-4. Deploy to Vercel.
-5. Connect a custom domain after final review.
-
-## Recommended deployment
-
-Push this folder to GitHub, import the repository into Vercel, and deploy.
